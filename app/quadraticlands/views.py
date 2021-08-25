@@ -144,7 +144,7 @@ def mission_postcard_svg(request):
             if _id == 'text':
 
                 # get text
-                replace_text = package.get('text')
+                replace_text = package.get('text', '')
 
                 # chop up the text by word length to create line breaks.
                 line_words_length = int(request.GET.get('line_words_length', 8))

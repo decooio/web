@@ -152,7 +152,8 @@ INSTALLED_APPS = [
     'adminsortable2',
     'debug_toolbar',
     'passport',
-    'quadraticlands'
+    'quadraticlands',
+    'django_distill'
 ]
 
 MIDDLEWARE = [
